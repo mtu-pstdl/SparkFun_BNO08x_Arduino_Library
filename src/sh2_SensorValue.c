@@ -165,7 +165,7 @@ int sh2_decodeSensorEvent(sh2_SensorValue_t *value, const sh2_SensorEvent_t *eve
             rc = decodeSignificantMotion(value, event);
             break;
         case SH2_STABILITY_CLASSIFIER:
-            rc = decodeStabilityClassifier(value, event);
+            //rc = decodeStabilityClassifier(value, event);
             break;
         case SH2_SHAKE_DETECTOR:
             rc = decodeShakeDetector(value, event);
